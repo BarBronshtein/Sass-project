@@ -1,0 +1,42 @@
+@import 'config';
+@import 'header';
+@import 'utilities';
+@import 'sections';
+@import 'footer';
+@import 'item_grid';
+// General Styling
+$color: red;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+// Import Media Queries
+@import 'mq';
